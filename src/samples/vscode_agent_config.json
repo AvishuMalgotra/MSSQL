@@ -1,0 +1,18 @@
+{
+  "mcp": {
+    "servers": {
+      "mssql-nodejs": {
+        "type": "stdio",
+        "command": "node",
+        "args": [
+          "C:\\Users\\TPT-Admin\\SQL-AI-samples\\MssqlMcp\\Node\\dist\\index.js"
+        ],
+        "env": {
+          "SERVER_NAME": "copilottosql.database.windows.net",
+          "DATABASE_NAME": "Northwinds",
+          "READONLY": "false"
+        }
+      }
+    }
+  }
+}
